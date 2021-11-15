@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ImageHub/static/css/main.a074765c.chunk.css",
+    "main.js": "/ImageHub/static/js/main.8bc24622.chunk.js",
+    "main.js.map": "/ImageHub/static/js/main.8bc24622.chunk.js.map",
+    "runtime-main.js": "/ImageHub/static/js/runtime-main.c6d61eb9.js",
+    "runtime-main.js.map": "/ImageHub/static/js/runtime-main.c6d61eb9.js.map",
+    "static/js/2.9eedba2c.chunk.js": "/ImageHub/static/js/2.9eedba2c.chunk.js",
+    "static/js/2.9eedba2c.chunk.js.map": "/ImageHub/static/js/2.9eedba2c.chunk.js.map",
+    "static/js/3.e82dcad8.chunk.js": "/ImageHub/static/js/3.e82dcad8.chunk.js",
+    "static/js/3.e82dcad8.chunk.js.map": "/ImageHub/static/js/3.e82dcad8.chunk.js.map",
+    "index.html": "/ImageHub/index.html",
+    "static/css/main.a074765c.chunk.css.map": "/ImageHub/static/css/main.a074765c.chunk.css.map",
+    "static/js/2.9eedba2c.chunk.js.LICENSE.txt": "/ImageHub/static/js/2.9eedba2c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6d61eb9.js",
+    "static/js/2.9eedba2c.chunk.js",
+    "static/css/main.a074765c.chunk.css",
+    "static/js/main.8bc24622.chunk.js"
+  ]
+}
