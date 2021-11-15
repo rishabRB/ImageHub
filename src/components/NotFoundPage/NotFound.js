@@ -16,11 +16,11 @@ font-size: 30px;
 
 
   
-const NotFound=({ImageData,text})=>{
+const NotFound=({text})=>{
 
     return (
           <>
-             {ImageData ? <NotFoundEffect>{text}</NotFoundEffect> :''}
+            {text ? <NotFoundEffect>NotFound</NotFoundEffect> : " "}
           </>
     );
   }

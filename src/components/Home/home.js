@@ -13,13 +13,12 @@ var APIKey='24330918-cdfda0593b13da36a224add5b'
 
 const Home = () => {
   
-  const [ImageData,setImageData]=useState(null) 
+  const [ImageData,setImageData]=useState([]) 
   const [SearchQuery,setSearchQuery]=useState('') 
-  const [istext,setisText]=useState('Loading...')
+  const [istext,setisText]=useState(false)
 
 
 
-useEffect(()=>{
      const SearchImage=async ()=>{
       const response=await axios(`https://pixabay.com/api/?key=${APIKey}&q=${SearchQuery}&image_type=photo&pretty=true`)
       if(response){
@@ -28,20 +27,23 @@ useEffect(()=>{
      else{
       console.log('error')
      }}
-     
-   
-     SearchImage()
   
-  },[SearchQuery])
+  
 
   const UpdateSearchQuery=(e)=>{
     setSearchQuery(e.target.value)
-    setTimeout(()=>setisText('No Image Found'),1000)
-    setisText('Loading...')
+    SearchImage()
+     if(ImageData==0){
+     console.log(ImageData.length)
+     setisText(!istext)
   }
+}
    
   const NullSearchQuery=()=>{
+     
+    setisText(false)
     setSearchQuery('')
+    
   }
 
   
@@ -51,7 +53,7 @@ useEffect(()=>{
            
            <NavBar SearchQuery={SearchQuery} UpdateSearchQuery={UpdateSearchQuery} NullSearchQuery={NullSearchQuery} />
            <MainSection ImageData={ImageData}/> 
-           <NotFound ImageData={ImageData} text={istext} />
+           <NotFound text={istext} /> 
           
            </>
     )
