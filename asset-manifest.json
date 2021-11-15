@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ImageHub/static/css/main.a074765c.chunk.css",
-    "main.js": "/ImageHub/static/js/main.ce6a6439.chunk.js",
-    "main.js.map": "/ImageHub/static/js/main.ce6a6439.chunk.js.map",
+    "main.js": "/ImageHub/static/js/main.aa6487bf.chunk.js",
+    "main.js.map": "/ImageHub/static/js/main.aa6487bf.chunk.js.map",
     "runtime-main.js": "/ImageHub/static/js/runtime-main.c6d61eb9.js",
     "runtime-main.js.map": "/ImageHub/static/js/runtime-main.c6d61eb9.js.map",
     "static/js/2.9eedba2c.chunk.js": "/ImageHub/static/js/2.9eedba2c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c6d61eb9.js",
     "static/js/2.9eedba2c.chunk.js",
     "static/css/main.a074765c.chunk.css",
-    "static/js/main.ce6a6439.chunk.js"
+    "static/js/main.aa6487bf.chunk.js"
   ]
 }
