@@ -31,6 +31,8 @@ const Home = () => {
   
 
   const UpdateSearchQuery=(e)=>{
+
+    setisText(false)
     setSearchQuery(e.target.value)
     SearchImage()
      if(ImageData==0){
@@ -40,10 +42,8 @@ const Home = () => {
 }
    
   const NullSearchQuery=()=>{
-     
-    setisText(false)
     setSearchQuery('')
-    
+    setisText(false)
   }
 
   
